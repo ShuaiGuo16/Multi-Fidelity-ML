@@ -1,0 +1,13 @@
+taX - ThermoAcoustic Network Code
+taX is a simulation tool for the propagation of acoustic waves in thermoacoustic network systems. It is able to determine stability, eigenmodes, mode shapes, frequency responses and scattering matrices in acoustic networks of arbitrary topology.
+It is developed by the Professur fuer Thermofluiddynamik, Technische Universitaet Muenchen (www.tfd.mw.tum.de).
+For updates and further information please visit our gitlab instance and checkout our code:
+https://gitlab.lrz.de/Thomas/tax.git
+and have a look at the wiki:
+https://tax.wiki.tum.de
+
+Installation
+In order to install tax, you need to have a decent version of Matlab running on your computer (R2015a and newer). You will need to install (clone) the @sss toolbox and tax from the git repositories.
+Before you can clone, you need to log in on gitlab.lrz.de with you TUM account.
+git clone --recursive https://gitlab.lrz.de/tfd/tax.git
+Make sure to install both (sss,tax) into the same folder on your machine.

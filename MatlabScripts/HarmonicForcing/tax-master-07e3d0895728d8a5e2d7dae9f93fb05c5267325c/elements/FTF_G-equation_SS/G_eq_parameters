@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%% General %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+FlameType  V
+% V (V-Flamme)
+% K (conical Flamme)
+% M (M-Flamme)
+
+VelocityModel uniform
+% uniform
+% convective
+% incompConvective       NOT IMPLEMENTED!
+% incompConvecDecrease   NOT IMPLEMENTED!
+
+%%%%%%%%%%%%%% Velocities %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+um 1             % [m/s]   mean velocity axial
+vm 0             % [m/s]   mean velocity radial
+
+W 1              % [m/s]   convective velocity of disturbance
+
+soundSpeed=333   % [m/s]
+
+%%%%%%%%%%%%%% Geometry %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+R = 0.3            % [m] flame radius
+H = 0.1            % [m] flame height
+
+Gamma 0.5        % [-] only M-flame!
+l_outside 0      % [m] only M-flame!
+l_centre 0       % [m] only M-flame!

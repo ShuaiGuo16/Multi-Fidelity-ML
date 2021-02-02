@@ -1,0 +1,4905 @@
+Library {
+  Name			  "taXlibrary"
+  Version		  8.6
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "UTF-8"
+  LibraryType		  "BlockLibrary"
+  LockLinksToLibrary	  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime off
+  DisableAllScopes	  off
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [2491.0, 26.0, 927.0, 831.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[873.0, 647.0]
+	ZoomFactor		[1.25]
+	Offset			[1.0690908511477346, 8.4000000000000341]
+      }
+    }
+  }
+  Created		  "Fri Aug 24 13:53:10 2012"
+  Creator		  "mur"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "jaensch"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Mar 08 11:51:49 2016"
+  RTWModifiedTimeStamp	  379338706
+  ModelVersionFormat	  "1.%<AutoIncrement:119>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "all"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      6
+      Version		      "1.15.1"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  7
+	  Version		  "1.15.1"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  8
+	  Version		  "1.15.1"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  9
+	  Version		  "1.15.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    7
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  2147483647
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  10
+	  Version		  "1.15.1"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "UseLocalSettings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  IntegerSaturationMsg	  "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  11
+	  Version		  "1.15.1"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  12
+	  Version		  "1.15.1"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  13
+	  Version		  "1.15.1"
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  14
+	  Version		  "1.15.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    6
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      15
+	      Version		      "1.15.1"
+	      Array {
+		Type			"Cell"
+		Dimension		19
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"SFDataObjDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      16
+	      Version		      "1.15.1"
+	      Array {
+		Type			"Cell"
+		Dimension		15
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"GenerateAllocFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PurelyIntegerCode"
+		Cell			"PortableWordSizes"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      on
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  17
+	  Version		  "1.15.1"
+	  Description		  "Simulink Coverage Configuration Component"
+	  Name			  "Simulink Coverage"
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovMetricSettings	  "dw"
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  on
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "Off"
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  off
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 520, 285, 1400, 915 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+    }
+  }
+  System {
+    Name		    "taXlibrary"
+    Location		    [2491, 26, 3418, 857]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "125"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "256"
+    Block {
+      BlockType		      Inport
+      Name		      "In1"
+      SID		      "1"
+      Position		      [535, 23, 565, 37]
+      ZOrder		      -28
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Block"
+      SID		      "244"
+      Ports		      [1, 1]
+      Position		      [25, 430, 85, 470]
+      ZOrder		      36
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		18
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('Element'));\n\nadaptIO(gcb);"
+	SelfModifiable		"on"
+	Display			"text(.3, .3, 'S21', 'HorizontalAlignment', 'center')\ntext(.3, .7, 'S11', 'HorizontalAlignment', 'center')"
+	"\ntext(.7, .3, 'S22', 'HorizontalAlignment', 'center')\ntext(.7, .7, 'S12', 'HorizontalAlignment', 'center')\nplot([."
+	"2 .1 .1 .2], [.9 .9 .1 .1])\nplot([.8 .9 .9 .8], [.9 .9 .1 .1])\n%plot([1 1 0 0 1],[1 0 0 1 1])"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  5
+	  Object {
+	    $ObjectID		    19
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "Element"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    20
+	    Type		    "edit"
+	    Name		    "nIn"
+	    Prompt		    "Number of input ports"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    21
+	    Type		    "edit"
+	    Name		    "nOut"
+	    Prompt		    "Number of output ports"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    22
+	    Type		    "edit"
+	    Name		    "filename"
+	    Prompt		    "Filename"
+	    Value		    "/home/thomas/tools/taX/Projects/Orifice_Carlo/L0D_Element.mat"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    23
+	    Type		    "edit"
+	    Name		    "modelname"
+	    Prompt		    "Modelname"
+	    Value		    "sys"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  24
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Edit"
+	    Dimension		    5
+	    Object {
+	      $ObjectID		      25
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      26
+	      Name		      "nIn"
+	    }
+	    Object {
+	      $ObjectID		      27
+	      Name		      "nOut"
+	    }
+	    Object {
+	      $ObjectID		      28
+	      Name		      "filename"
+	    }
+	    Object {
+	      $ObjectID		      29
+	      Name		      "modelname"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"Block"
+	Location		[2493, 268, 3343, 884]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"169"
+	SIDPrevWatermark	"66"
+	Block {
+	  BlockType		  Inport
+	  Name			  "virt1"
+	  SID			  "244:55"
+	  Position		  [0, 3, 30, 17]
+	  ZOrder		  9
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "virt2"
+	  SID			  "244:169"
+	  Position		  [0, 3, 30, 17]
+	  ZOrder		  113
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Duct"
+      SID		      "238"
+      Ports		      [1, 1]
+      Position		      [25, 218, 85, 262]
+      ZOrder		      29
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<l> m"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		30
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('Duct'));"
+	Display			"patch([0 1 1 0],[.2 .2 .8 .8],[.7 1 1])\nplot([0 1],[.2 .2])\nplot([0 1],[.8 .8])\n\nplot([1 1 0 0 1],[1 0"
+	" 0 1 1])"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  5
+	  Object {
+	    $ObjectID		    31
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "Duct"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    32
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      4
+	      Cell		      "1"
+	      Cell		      "2"
+	      Cell		      "3"
+	      Cell		      "inf"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "order"
+	    Prompt		    "Order of upwind scheme"
+	    Value		    "3"
+	  }
+	  Object {
+	    $ObjectID		    33
+	    Type		    "edit"
+	    Name		    "minres"
+	    Prompt		    "Resolution of shortest wave"
+	    Value		    "40"
+	  }
+	  Object {
+	    $ObjectID		    34
+	    Type		    "edit"
+	    Name		    "l"
+	    Prompt		    "Length [m]"
+	    Value		    "0.5"
+	  }
+	  Object {
+	    $ObjectID		    35
+	    Type		    "edit"
+	    Name		    "sensorPositions"
+	    Prompt		    "Sensor Positions [m]"
+	    Value		    "[]"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  36
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    5
+	    Object {
+	      $ObjectID		      37
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      38
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      PromptLocation	      "top"
+	      Name		      "order"
+	    }
+	    Object {
+	      $ObjectID		      39
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "minres"
+	    }
+	    Object {
+	      $ObjectID		      40
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "l"
+	    }
+	    Object {
+	      $ObjectID		      41
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "sensorPositions"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"Duct"
+	Location		[963, 52, 1629, 904]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "239"
+	  Position		  [165, 108, 195, 122]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "240"
+	  Position		  [420, 133, 450, 147]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Flame"
+      SID		      "232"
+      Ports		      [2, 1]
+      Position		      [105, 334, 150, 376]
+      ZOrder		      26
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		42
+	$ClassName		"Simulink.Mask"
+	Initialization		"set_param(gcb,'element',char('rankineHugoniot'));\n\nswitchNRef(gcb,nRef);"
+	SelfModifiable		"on"
+	Display			"plot([-.1 1.1], [.5 .5])\n%patch([-.1 1.1 1.1 -.1],[-.1 -.1 1.1 1.1],[.7 1 1])\npatch([.3 .4 .3 .4 .3 .4 ."
+	"3 .4 .3 .4 .3 ...\n       .5 .8 .5 .8 .5 .8 .5 .8 .5 .8 .5],...\n      [ 1 .9 .8 .7 .6 .5 .4 .3 .2 .1 0 ...\n        "
+	"0 .1 .2 .3 .4 .5 .6 .7 .8 .9 1 ],[1 .75 0])\n\ncolor('red')\nplot([.3 .4 .3 .4 .3 .4 .3 .4 .3 .4 .3],...\n     [ 0 .1"
+	" .2 .3 .4 .5 .6 .7 .8 .9  1])\nplot([.4 .6 .4 .6 .4 .6 .4 .6 .4 .6 .4],...\n     [ 0 .1 .2 .3 .4 .5 .6 .7 .8 .9  1])\n"
+	"plot([.3 .5 .8 .5 .8 .5 .8 .5 .8 .5 .8 .5 .3],...\n     [ 0  0 .1 .2 .3 .4 .5 .6 .7 .8 .9  1  1])"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  5
+	  Object {
+	    $ObjectID		    43
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "rankineHugoniot"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    44
+	    Type		    "edit"
+	    Name		    "nRef"
+	    Prompt		    "Number of heat release fluctuation references"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    45
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number [-]"
+	    Value		    "0.001056*101325/(287.04*293)*11.3/(101325/(287.04*1930)*0.0081*sqrt(1.4*287.04*1930))"
+	  }
+	  Object {
+	    $ObjectID		    46
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [Kg/m³]"
+	    Value		    "101325/(287.04*1930)"
+	  }
+	  Object {
+	    $ObjectID		    47
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "sqrt(1.4*287.04*1930)"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    48
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      2
+	      Object {
+		$ObjectID		49
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		50
+		Name			"nRef"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    51
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      3
+	      Object {
+		$ObjectID		52
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		53
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		54
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"Flame"
+	Location		[1920, 40, 3468, 531]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"198"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "232:122"
+	  Position		  [40, 133, 70, 147]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "virt1"
+	  SID			  "232:171"
+	  Position		  [15, 13, 45, 27]
+	  ZOrder		  -2
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "232:126"
+	  Position		  [430, 133, 460, 147]
+	  ZOrder		  -4
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Scatteringmatrix"
+      SID		      "242"
+      Ports		      [1, 1]
+      Position		      [135, 429, 205, 471]
+      ZOrder		      34
+      AttributesFormatString  "%<modelname>"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		55
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('ScatteringMatrix'));\n\nadaptScatterIO(gcb);"
+	SelfModifiable		"on"
+	Display			"text(.3, .3, 'S21', 'HorizontalAlignment', 'center')\ntext(.3, .7, 'S11', 'HorizontalAlignment', 'center')"
+	"\ntext(.7, .3, 'S22', 'HorizontalAlignment', 'center')\ntext(.7, .7, 'S12', 'HorizontalAlignment', 'center')\nplot([."
+	"2 .1 .1 .2], [.9 .9 .1 .1])\nplot([.8 .9 .9 .8], [.9 .9 .1 .1])\n%plot([1 1 0 0 1],[1 0 0 1 1])"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  8
+	  Object {
+	    $ObjectID		    56
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "ScatteringMatrix"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    57
+	    Type		    "edit"
+	    Name		    "filename"
+	    Prompt		    "Filename"
+	    Value		    "/home/thomas/Data/MeindlComsol/Duct/ducttest.mat"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    58
+	    Type		    "edit"
+	    Name		    "modelname"
+	    Prompt		    "Modelname"
+	    Value		    "sys"
+	  }
+	  Object {
+	    $ObjectID		    59
+	    Type		    "edit"
+	    Name		    "l"
+	    Prompt		    "Length [m]"
+	    Value		    "1"
+	    ReadOnly		    "on"
+	    Enabled		    "off"
+	  }
+	  Object {
+	    $ObjectID		    60
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "[1]"
+	    ReadOnly		    "on"
+	    Enabled		    "off"
+	  }
+	  Object {
+	    $ObjectID		    61
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number [-]"
+	    Value		    "[2.2204e-18]"
+	    ReadOnly		    "on"
+	    Enabled		    "off"
+	  }
+	  Object {
+	    $ObjectID		    62
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [Kg/m³]"
+	    Value		    "[1.3]"
+	    ReadOnly		    "on"
+	    Enabled		    "off"
+	  }
+	  Object {
+	    $ObjectID		    63
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "[100]"
+	    ReadOnly		    "on"
+	    Enabled		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    64
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		65
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		66
+		Name			"filename"
+	      }
+	      Object {
+		$ObjectID		67
+		Name			"modelname"
+	      }
+	      Object {
+		$ObjectID		68
+		Name			"l"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    69
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		70
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		71
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		72
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		73
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"Scatteringmatrix"
+	Location		[2493, 268, 3343, 884]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"66"
+	Block {
+	  BlockType		  Inport
+	  Name			  "virt1"
+	  SID			  "242:55"
+	  Position		  [0, 3, 30, 17]
+	  ZOrder		  9
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "virt2"
+	  SID			  "242:56"
+	  Position		  [0, 3, 30, 17]
+	  ZOrder		  10
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "areaChange"
+      SID		      "15"
+      Ports		      [1, 1]
+      Position		      [30, 119, 75, 161]
+      ZOrder		      -7
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<A> m²"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		74
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('lZeta'));"
+	Display			"patch([0 0 .6 .6  1  1 .6 .6 0], ...\n      [.1 .9  .9 .7 .7 .3 .3  0.1 0.1], ...\n      [.7 1 1])\n\n% pl"
+	"ot([0   0    .1 .2  .3 .4  .5 .6 .6 1   1   .6 .6  .5 .4 .3 .2  .1 0  ], ...\n%      [ .1  .9 1   .9 1   .9 1   .9 .7"
+	"  .7  .3 .3 .1 0   .1 0 .1 0    .1])\n\nplot([0 .6 .6 1 1 .6 .6 0], ...\n     [.9 .9 .7 .7 .3 .3 .1 .1])\n\nplot([0 1"
+	" 1 0 0], ...\n     [1 1 0 0 1])\n\ntext(.3,.5,'L','HorizontalAlignment','center')\ntext(.6,.5,'zt','HorizontalAlignme"
+	"nt','center')\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    75
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "lZeta"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    76
+	    Type		    "edit"
+	    Name		    "zeta"
+	    Prompt		    "Pressure loss Coefficient zeta"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    77
+	    Type		    "edit"
+	    Name		    "lred"
+	    Prompt		    "Reduced Length l_red"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    78
+	    Type		    "edit"
+	    Name		    "leff"
+	    Prompt		    "Effective Length l_eff"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    79
+	    Type		    "edit"
+	    Name		    "l"
+	    Prompt		    "Length [m]"
+	    Value		    "1"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    80
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "4"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    81
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      5
+	      Object {
+		$ObjectID		82
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		83
+		Name			"zeta"
+	      }
+	      Object {
+		$ObjectID		84
+		Name			"lred"
+	      }
+	      Object {
+		$ObjectID		85
+		Name			"leff"
+	      }
+	      Object {
+		$ObjectID		86
+		Name			"l"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    87
+	    Prompt		    "Output properties"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      88
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "A"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"areaChange"
+	Location		[2177, 56, 3104, 887]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "16"
+	  Position		  [60, 98, 90, 112]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "17"
+	  Position		  [415, 113, 445, 127]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Annotation {
+	  SID			  "204"
+	  Position		  [347, 398, 349, 415]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  ZOrder		  -1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "chokedExit"
+      SID		      "8"
+      Ports		      [1]
+      Position		      [430, 19, 475, 61]
+      ZOrder		      -3
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		89
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('chokedExit'));\n\nswitchBCUpDownStream(gcb,loc);"
+	SelfModifiable		"on"
+	Display			"patch([0 .5 .5 0],[.2 .2 .8 .8],[.7 1 1])\npatch([.5 .6 .6 .5],[.2 .2 .8 .8],[.8 1 1])\npatch([.6 .7 .7 .6"
+	"],[.2 .2 .8 .8],[.9 1 1])\nplot([0 .6 .6],[.2 .2 .35])\nplot([0 .6 .6],[.8 .8 .65])\n% port_label('Port',1,'M>1')\npl"
+	"ot([.7 .9],[.4 .3])\nplot([.7 .9],[.5 .5])\nplot([.7 .9],[.6 .7])\nplot([1 1 0 0 1],[1 0 0 1 1])\n\n\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    90
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "chokedExit"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    91
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Downstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    92
+	    Type		    "edit"
+	    Name		    "Gamma"
+	    Prompt		    "Gamma [-]"
+	    Value		    "1.4"
+	  }
+	  Object {
+	    $ObjectID		    93
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    94
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    95
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [kg/m³]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    96
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    97
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      3
+	      Object {
+		$ObjectID		98
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		99
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      Object {
+		$ObjectID		100
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"Gamma"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    101
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		102
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		103
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		104
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		105
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"chokedExit"
+	Location		[920, 195, 2014, 959]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"36"
+	SIDPrevWatermark	"21"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Port"
+	  SID			  "8:35"
+	  Position		  [110, 208, 140, 222]
+	  ZOrder		  1
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "closedEnd"
+      SID		      "10"
+      Ports		      [0, 1]
+      Position		      [105, 19, 150, 61]
+      ZOrder		      -4
+      BlockRotation	      180
+      BlockMirror	      on
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		106
+	$ClassName		"Simulink.Mask"
+	Initialization		"if Mach<0\n   errordlg('Mach number cannot be negative','invalid Mach number');\nend\n\n\nif c<=0\n "
+	"   errordlg('speed of sound must be positive','invalid speed of sound');\nend\n\nif rho<=0\n     errordlg('density mu"
+	"st be positive','invalid density');\nend\n\n% Set identifier\nset_param(gcb,'element',char('closedEnd'));\n\nswitchBC"
+	"UpDownStream(gcb,loc);\n"
+	SelfModifiable		"on"
+	Display			"plot([1 1 0 0 1],[1 0 0 1 1])\nplot([0. .2],[.8 1.])\nplot([0. .4],[.6 1.])\nplot([0. .6],[.4 1.])\nplot(["
+	"0. .8],[.2 1.])\nplot([0. 1.],[.0 1.])\nplot([.2 1.],[.0 .8])\nplot([.4 1.],[.0 .6])\nplot([.6 1.],[.0 .4])\nplot([.8"
+	" 1.],[.0 .2])\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	PortRotate		"physical"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    107
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "closedEnd"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    108
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    109
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    110
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number (dimensionless)"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    111
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density (Kg/m³)"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    112
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound (m/s)"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    113
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      2
+	      Object {
+		$ObjectID		114
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		115
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    116
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		117
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		118
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		119
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		120
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"closedEnd"
+	Location		[2422, 52, 2976, 651]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"209"
+	SIDPrevWatermark	"197"
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port"
+	  SID			  "10:197"
+	  Position		  [430, 178, 460, 192]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "curvedDuct"
+      SID		      "11"
+      Ports		      [1, 1]
+      Position		      [535, 283, 635, 327]
+      ZOrder		      -5
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		121
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('curvedDuct'));\n\n   \n   switch d_Auto\n       case"
+	" 1\n           d_poly='-1';\n       case 0 \n           d_poly=d_polyin;   \n   end\n    \n   tk=0;\n   \n  \n   for "
+	"kk = -0.5:1:n+1      \n       tk=tk+1;\n       xx=kk*l/n ;\n       x=max(xx,0) ;\n       x=min(x,l) ; \n       Di = d"
+	"ouble(eval(d_poly)); \n       switch d_Auto\n           case 0\n            if Di<0\n               errordlg('diamete"
+	"r must be bigger than or equal to zero','invalid diameter');\n            end\n       end\n\n       ai = double(eval("
+	"surface_poly));\n       if ai<=0\n           errordlg('areas must be positive','invalid areas');\n       end\n       "
+	"d_matrix(tk,1)=Di;\n       a_matrix(tk,1)=ai;\n   end\n\n   x = l;\n   aj = double(eval(surface_poly));"
+	Display			"patch([0  .2 .3 .7 .8 1  1  .8 .7 .3 .2  0],...\n      [.2 .1 .1 .3 .3 .2 .8 .7 .7 .9 .9 .8],[.7 1 1])\npl"
+	"ot([0 .2 .3 .7 .8 1],[.2 .1 .1 .3 .3 .2])\nplot([0 .2 .3 .7 .8 1],[.8 .9 .9 .7 .7 .8])\ntext(.4,.5,'A(x)','Horizontal"
+	"Alignment','center')\nplot([1 1 0 0 1],[1 0 0 1 1])\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    122
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "curvedDuct"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    123
+	    Type		    "edit"
+	    Name		    "surface_poly"
+	    Prompt		    "Area function A(x) (m²)"
+	    Value		    "exp(2.*x)"
+	    Evaluate		    "off"
+	  }
+	  Object {
+	    $ObjectID		    124
+	    Type		    "checkbox"
+	    Name		    "d_Auto"
+	    Prompt		    "Diameter Automatic"
+	    Value		    "on"
+	  }
+	  Object {
+	    $ObjectID		    125
+	    Type		    "edit"
+	    Name		    "d_polyin"
+	    Prompt		    "Diameter function D(x) (m)"
+	    Value		    "'1'"
+	    Evaluate		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    126
+	    Type		    "edit"
+	    Name		    "n"
+	    Prompt		    "Number of \"discretization\" elements"
+	    Value		    "25"
+	  }
+	  Object {
+	    $ObjectID		    127
+	    Type		    "edit"
+	    Name		    "l"
+	    Prompt		    "Length (m)"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    128
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area out (m^2)"
+	    Value		    "5.184705528587072e+21"
+	    Visible		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    129
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      6
+	      Object {
+		$ObjectID		130
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		131
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"surface_poly"
+	      }
+	      Object {
+		$ObjectID		132
+		$ClassName		"Simulink.dialog.parameter.CheckBox"
+		Name			"d_Auto"
+	      }
+	      Object {
+		$ObjectID		133
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"d_polyin"
+	      }
+	      Object {
+		$ObjectID		134
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"n"
+	      }
+	      Object {
+		$ObjectID		135
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"l"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    136
+	    Prompt		    "Output properties"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      137
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "A"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"curvedDuct"
+	Location		[257, 52, 1378, 1021]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "12"
+	  Position		  [330, 53, 360, 67]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "13"
+	  Position		  [705, 158, 735, 172]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "farFieldSource"
+      SID		      "14"
+      Ports		      [0, 1]
+      Position		      [600, 359, 645, 401]
+      ZOrder		      -6
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<Amp> Pa"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		138
+	$ClassName		"Simulink.Mask"
+	Initialization		"if Mach<0\n   errordlg('Mach number cannot be negative','invalid Mach number');\nend\n\n\nif c<=0\n "
+	"   errordlg('Speed of sound must be positive','invalid speed of sound');\nend\n\nif rho<=0\n     errordlg('Density mu"
+	"st be positive','invalid density');\nend\n\n% Set identifier\nset_param(gcb,'element',char('farFieldSource'));\n\nswi"
+	"tchBCUpDownStream(gcb,loc);\n"
+	SelfModifiable		"on"
+	Display			"patch([.55 .6  .6  .55 .45 .4  .4  .45 .55], ...\n      [.4  .45 .55 .6  .6  .55 .45 .4  .4 ],[1 .8 .3])\n"
+	"plot([.55 .6  .6  .55 .45 .4  .4  .45 .55], ...\n     [.4  .45 .55 .6  .6  .55 .45 .4  .4 ])\n\nplot([.4  .5  .6 ],  "
+	"   [.65   .7  .65])\nplot([.35 .45 .55 .65], [.75 .8 .8 .75])\nplot([.3  .4  .6  .7 ], [.85 .9 .9 .85])\n\nplot([.4  "
+	".5  .6 ],     [.35 .3 .35])\nplot([.35 .45 .55 .65], [.25 .2 .2 .25])\nplot([.3  .4  .6  .7 ], [.15 .1 .1 .15])\n\npl"
+	"ot([.65 .7 .65],    [.4     .5   .6 ])\nplot([.75 .8 .8 .75], [.35 .45 .55 .65])\nplot([.85 .9 .9 .85], [.3  .4  .6  "
+	".7 ])\n\nplot([.35 .3 .35],    [.4     .5   .6 ])\nplot([.25 .2 .2 .25], [.35 .45 .55 .65])\nplot([.15 .1 .1 .15], [."
+	"3  .4  .6  .7 ])\n\n"
+	IconFrame		"off"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    139
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "farFieldSource"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    140
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    141
+	    Type		    "edit"
+	    Name		    "Amp"
+	    Prompt		    "Forcing Amplitude [Pa]"
+	    Value		    "100"
+	  }
+	  Object {
+	    $ObjectID		    142
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    143
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number [-]"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    144
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [Kg/m³]"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    145
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    146
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      3
+	      Object {
+		$ObjectID		147
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		148
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      Object {
+		$ObjectID		149
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"Amp"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    150
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		151
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		152
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		153
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		154
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"farFieldSource"
+	Location		[767, 280, 1321, 879]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"188"
+	SIDPrevWatermark	"187"
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port"
+	  SID			  "14:188"
+	  Position		  [430, 178, 460, 192]
+	  ZOrder		  1
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "loudSpeaker"
+      SID		      "18"
+      Ports		      [0, 1]
+      Position		      [185, 19, 230, 61]
+      ZOrder		      -8
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<Amp> m/s"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		155
+	$ClassName		"Simulink.Mask"
+	Initialization		"if Mach<0\n   errordlg('Mach number cannot be negative','invalid Mach Number');\nend\n\n\nif c<=0\n "
+	"   errordlg('speed of sound must be positive','invalid speed of sound');\nend\n\nif rho<=0\n     errordlg('density mu"
+	"st be positive','invalid density');\nend\n\n% Set identifier\nset_param(gcb,'element',char('loudSpeaker'));\n\nswitch"
+	"BCUpDownStream(gcb,loc);\n"
+	SelfModifiable		"on"
+	Display			"\nswitch loc\n    case 'Upstream'\n        patch([.2 .4 .4 .7 .7 .4 .4 .2],[.6 .6 .7 .9 .1 .3 .4 .4],[1 .8"
+	" .3])\n        plot([.2 .2 .4 .4 .2],[.6 .4 .4 .6 .6])\n        plot([.7 .7 .4 .4 .7],[.9 .1 .3 .7 .9])\n    case 'Do"
+	"wnstream'\n        patch([.8 .6 .6 .3 .3 .6 .6 .8],[.6 .6 .7 .9 .1 .3 .4 .4],[1 .8 .3])\n        plot([.8 .8 .6 .6 .8"
+	"],[.6 .4 .4 .6 .6])\n        plot([.3 .3 .6 .6 .3],[.9 .1 .3 .7 .9])\nend\n\n\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    156
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "loudSpeaker"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    157
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    158
+	    Type		    "edit"
+	    Name		    "Amp"
+	    Prompt		    "Forcing Amplitude [m/s]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    159
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    160
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number [-]"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    161
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [Kg/m³]"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    162
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    163
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      3
+	      Object {
+		$ObjectID		164
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		165
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      Object {
+		$ObjectID		166
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"Amp"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    167
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		168
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		169
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		170
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		171
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"loudSpeaker"
+	Location		[2281, 52, 2947, 1019]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"205"
+	SIDPrevWatermark	"181"
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port"
+	  SID			  "18:192"
+	  Position		  [430, 178, 460, 192]
+	  ZOrder		  10
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "lumpedMass"
+      SID		      "19"
+      Ports		      [1, 1]
+      Position		      [515, 439, 560, 481]
+      ZOrder		      -9
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<Leq> m"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		172
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('lumpedMass'));"
+	Display			"plot([-.1 1.1],      [.5 .5])\n\npatch([.3 .2 .8 .7 .3],       [.7 .2 .2 .7 .7], [.75 .75 .75])\nplot([.3 "
+	".2 .8 .7 .5 .6 .5 .4 .5 .3],      [.7 .2 .2 .7 .7 .8 .9 .8 .7 .7])\ntext(.5,.5,'m',...\n    'HorizontalAlignment','ce"
+	"nter')\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  5
+	  Object {
+	    $ObjectID		    173
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "lumpedMass"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    174
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      5
+	      Cell		      "Equivalent length"
+	      Cell		      "Volume"
+	      Cell		      "Mass"
+	      Cell		      "Unflanged correction"
+	      Cell		      "Flanged correction"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "Flag"
+	    Prompt		    "Form of input"
+	    Value		    "Equivalent length"
+	    Callback		    "% Get the mask parameter values. This is a cell\n%   array of strings.\nmaskStr = get_param(gcb,'M"
+	    "askValues');\n\n% The pop-up menu is the first mask parameter.\n%   Check pop-up choice by comparing first letter"
+	    ", i.e. E or V \nif strcmp(maskStr{2}(1),'E'),\n    % Turn off the visibility of V and M\n    set_param(gcb,'MaskV"
+	    "isibilities',{'off';'on';'on';'off';'off'}),\n    set_param(gcb,'MaskValues',maskStr);\n    set_param(gcb,'Attrib"
+	    "utesFormatString',['%<Leq> m'])\nelseif strcmp(maskStr{2}(1),'V'),\n    % Turn off the visibility of parameters r"
+	    "elated L and M\n    set_param(gcb,'MaskVisibilities',{'off';'on';'off';'on';'off'}),\n    set_param(gcb,'MaskValu"
+	    "es',maskStr);\n    set_param(gcb,'AttributesFormatString',['%<Veq> m^3'])\nelseif strcmp(maskStr{2}(1),'M'),\n   "
+	    " % Turn off the visibility of parameters related L and V\n    set_param(gcb,'MaskVisibilities',{'off';'on';'off';"
+	    "'off';'on'}),\n    set_param(gcb,'MaskValues',maskStr);\n    set_param(gcb,'AttributesFormatString',['%<meq> kg']"
+	    ")\nelse\n    set_param(gcb,'MaskVisibilities',{'off';'on';'off';'off';'off'}),\n    set_param(gcb,'MaskValues',ma"
+	    "skStr);\n    set_param(gcb,'AttributesFormatString',[maskStr{2}])\nend"
+	  }
+	  Object {
+	    $ObjectID		    175
+	    Type		    "edit"
+	    Name		    "Leq"
+	    Prompt		    "Equivalent length"
+	    Value		    "1e-2"
+	  }
+	  Object {
+	    $ObjectID		    176
+	    Type		    "edit"
+	    Name		    "Veq"
+	    Prompt		    "Volume"
+	    Value		    "1"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    177
+	    Type		    "edit"
+	    Name		    "meq"
+	    Prompt		    "Mass"
+	    Value		    "1e-3"
+	    Visible		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  178
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    5
+	    Object {
+	      $ObjectID		      179
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      180
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "Flag"
+	    }
+	    Object {
+	      $ObjectID		      181
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "Leq"
+	    }
+	    Object {
+	      $ObjectID		      182
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "Veq"
+	    }
+	    Object {
+	      $ObjectID		      183
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "meq"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"lumpedMass"
+	Location		[1164, 52, 1825, 804]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "20"
+	  Position		  [60, 98, 90, 112]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "21"
+	  Position		  [415, 113, 445, 127]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Annotation {
+	  SID			  "167"
+	  Position		  [347, 398, 349, 415]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  ZOrder		  -1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "lumpedVolume1"
+      SID		      "22"
+      Ports		      [1, 1]
+      Position		      [600, 439, 645, 481]
+      ZOrder		      -10
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<Veq> m^3"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		184
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('lumpedVolume'));"
+	Display			"patch([0 0 .1 .3 .5 .7 .9 1 ...\n      1 .9 .7 .5 .3 .1 0], ...\n     [.1 .9 1 .8 1 .8 1 .9 ...\n     .1 0"
+	" .2 0 .2 0 .1],[.7 1 1])\n\nplot([0 0 .1 .3 .5 .7 .9 1 ...\n      1 .9 .7 .5 .3 .1 0], ...\n     [.1 .9 1 .8 1 .8 1 ."
+	"9 ...\n     .1 0 .2 0 .2 0 .1])\n\ndisp('V')"
+	IconFrame		"off"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    185
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "lumpedVolume"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    186
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Equivalent length"
+	      Cell		      "Volume"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "Flag"
+	    Prompt		    "Form of input"
+	    Value		    "Volume"
+	    Callback		    "% Get the mask parameter values. This is a cell\n%   array of strings.\nmaskStr = get_param(gcb,'M"
+	    "askValues');\n\n% The pop-up menu is the second mask parameter.\n% Check pop-up choice by comparing first letter,"
+	    " i.e. E or V \nif strcmp(maskStr{2}(1),'E'),\n    % Turn off the visibility of V\n    set_param(gcb,'MaskVisibili"
+	    "ties',{'off';'on';'on';'off'});\n    set_param(gcb,'MaskValues',maskStr);\n    set_param(gcb,'AttributesFormatStr"
+	    "ing',['%<Leq> m']);\nelse\n    % Turn off the visibility of parameters related L\n    set_param(gcb,'MaskVisibili"
+	    "ties',{'off';'on';'off';'on'});\n    set_param(gcb,'MaskValues',maskStr);\n    set_param(gcb,'AttributesFormatStr"
+	    "ing',['%<Veq> m^3']);\nend"
+	  }
+	  Object {
+	    $ObjectID		    187
+	    Type		    "edit"
+	    Name		    "Leq"
+	    Prompt		    "Length"
+	    Value		    "1"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    188
+	    Type		    "edit"
+	    Name		    "Veq"
+	    Prompt		    "Volume"
+	    Value		    "1"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  189
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    4
+	    Object {
+	      $ObjectID		      190
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      191
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "Flag"
+	    }
+	    Object {
+	      $ObjectID		      192
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "Leq"
+	    }
+	    Object {
+	      $ObjectID		      193
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "Veq"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"lumpedVolume1"
+	Location		[670, 155, 1219, 539]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "23"
+	  Position		  [165, 33, 195, 47]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "24"
+	  Position		  [425, 48, 455, 62]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Annotation {
+	  SID			  "205"
+	  Position		  [347, 398, 349, 415]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  ZOrder		  -1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "nonReflEnd"
+      SID		      "32"
+      Ports		      [0, 1]
+      Position		      [270, 19, 315, 61]
+      ZOrder		      -14
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		194
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('reflEnd'));\n\nswitchBCUpDownStream(gcb,loc);\n"
+	SelfModifiable		"on"
+	Display			"patch([0 1 1 0],[.2 .2 .8 .8],[.7 1 1])\n\n%plot([0. .2],[.8 1.])\n%plot([0. .4],[.6 1.])\n%plot([0. .6],["
+	".4 1.])\n%plot([0. .8],[.2 1.])\n%plot([0. 1.],[.0 1.])\n%plot([.2 1.],[.0 .8])\n%plot([.4 1.],[.0 .6])\n%plot([.6 1."
+	"],[.0 .4])\n%plot([.8 1.],[.0 .2])\n\nplot([0.0 .05],[.2 .2])\nplot([.15 .25],[.2 .2])\nplot([.35 .45],[.2 .2])\nplot"
+	"([.55 .65],[.2 .2])\nplot([.75 .85],[.2 .2])\nplot([.95 1.0],[.2 .2])\n\nplot([0.0 .05],[.8 .8])\nplot([.15 .25],[.8 "
+	".8])\nplot([.35 .45],[.8 .8])\nplot([.55 .65],[.8 .8])\nplot([.75 .85],[.8 .8])\nplot([.95 1.0],[.8 .8])\n\nplot([.2 "
+	".15 .2 .3 .4 .6 .7 .8 .85 .8 .7 .6 .4 .3 .2], ...\n    [.4 .5 .6 .65 .6 .4 .35 .4 .5 .6 .65 .6 .4 .35 .4])\n\nplot([1"
+	" 1 0 0 1],[1 0 0 1 1])\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    195
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "reflEnd"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    196
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    197
+	    Type		    "edit"
+	    Name		    "r"
+	    Prompt		    "r"
+	    Value		    "0"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    198
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    199
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number (dimensionless)"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    200
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density (Kg/m³)"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    201
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound (m/s)"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    202
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      3
+	      Object {
+		$ObjectID		203
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		204
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      Object {
+		$ObjectID		205
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"r"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    206
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		207
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		208
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		209
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		210
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"nonReflEnd"
+	Location		[2513, 52, 3067, 651]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"193"
+	SIDPrevWatermark	"186"
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port"
+	  SID			  "32:186"
+	  Position		  [430, 178, 460, 192]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "observer"
+      SID		      "36"
+      Ports		      [1, 1]
+      Position		      [330, 428, 375, 472]
+      ZOrder		      -16
+      ForegroundColor	      "blue"
+      BackgroundColor	      "[1.000000, 0.806667, 0.420000]"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		211
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('observer'));"
+	SelfModifiable		"on"
+	Display			"color('red')\nplot([0 0 1 1 0],[1 0 0 1 1])\n\nplot([.5 .4 .3 .3 .4 .6 .7 .7 .4 .3 .3],[.6 .6 .7 .8 .9 .9 "
+	".7 .5 .1 .1 .2])\nplot([.5 .4 .4 .5 .6 .65],[.6 .7 .8 .85 .8 .6])\nplot([.4 .5 .6 .6 .5 .45 .4 .4 .45 .45 .4 .4],[.7 "
+	".7 .6 .5 .4 .3 .3 .35 .4 .45 .5 .55])\n\n%plot([.9 .85 .9],    [.4     .5   .6 ])\n%plot([.8 .75 .75 .8], [.35 .45 .5"
+	"5 .65])\n\n%plot([.1 .15 .1],    [.4     .5   .6 ])\n%plot([.2 .25 .25 .2], [.35 .45 .55 .65])\n"
+	IconFrame		"off"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    212
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "observer"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    213
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "p_u"
+	      Cell		      "f_g"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "property"
+	    Prompt		    "Observed Quantity"
+	    Value		    "p_u"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Control"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    214
+	    $ClassName		    "Simulink.dialog.Group"
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Visible		    "off"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      215
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    216
+	    $ClassName		    "Simulink.dialog.parameter.Popup"
+	    Name		    "property"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"observer"
+	Location		[2490, 111, 2952, 664]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"225"
+	SIDPrevWatermark	"184"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Port"
+	  SID			  "36:184"
+	  Position		  [50, 83, 80, 97]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port1"
+	  SID			  "36:187"
+	  Position		  [275, 83, 305, 97]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "openEnd"
+      SID		      "37"
+      Ports		      [0, 1]
+      Position		      [20, 19, 65, 61]
+      ZOrder		      -17
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		217
+	$ClassName		"Simulink.Mask"
+	Initialization		"if Mach<0\n   errordlg('Mach number cannot be negative','invalid Mach Number');\nend\n\n\nif c<=0\n "
+	"   errordlg('Speed of sound must be positive','invalid speed of sound');\nend\n\nif rho<=0\n     errordlg('Density mu"
+	"st be positive','invalid density');\nend\n\n% Set identifier\nset_param(gcb,'element',char('openEnd'));\n\nswitchBCUp"
+	"DownStream(gcb,loc);\n"
+	SelfModifiable		"on"
+	Display			"%patch([.2  1  1 .2],[.2 .2 .8 .8],[.7 1 1])\n%patch([.2 .3 .3 .2],[.2 .2 .8 .8],[.9 1 1])\n%patch([.3 .4 "
+	".4 .3],[.2 .2 .8 .8],[.8 1 1])\n%plot([.3 1],[.2 .2])\n%plot([.3 1],[.8 .8])\n%plot([1 1 0 0 1],[1 0 0 1 1])\n\n%patc"
+	"h([.2 .2 .3 .5 .6 .6 .5 .3],...\n%      [.45 .65 .75 .75 .65 .45 .35 .35],[1 1 0])\ncolor('red')\nplot([.25 .2  .2  ."
+	"3  .5  .6  .6],...\n     [.4  .45 .65 .75 .75 .65 .5])\nplot([.4 .4],[.85 1.0])\nplot([-.05 .1],[.55 .55])\nplot([.7 "
+	".85],[.55 .55])\nplot([.2 .1],[.75 .85])\nplot([.6 .7],[.75 .85])\n%patch([.1 .1 .2 .4 .45 .6 .75 .9  .9 1. 1. .9 .2]"
+	",...\n%      [.1 .3 .4 .4 .35 .5  .5 .35 .3 .2 .1 .0 .0],[.7 1 1])\ncolor('blue')\nplot([ .45 .6 .75 .9  .9 1. 1. .9 "
+	".2 .1 .1 .2 .4 .6 .7],...\n     [ .35 .5  .5 .35 .3 .2 .1 .0 .0 .1 .3 .4 .4 .2 .2])\n\n\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    218
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "openEnd"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    219
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    220
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area (m^2)"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    221
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number (dimensionless)"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    222
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density (Kg/m³)"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    223
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound (m/s)"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    224
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      2
+	      Object {
+		$ObjectID		225
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		226
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    227
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		228
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		229
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		230
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		231
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"openEnd"
+	Location		[2281, 52, 2947, 1019]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"206"
+	SIDPrevWatermark	"179"
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port"
+	  SID			  "37:179"
+	  Position		  [430, 178, 460, 192]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "refG"
+      SID		      "245"
+      Ports		      [1, 2]
+      Position		      [180, 334, 225, 376]
+      ZOrder		      37
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		232
+	$ClassName		"Simulink.Mask"
+	Initialization		"set_param(gcb,'element',char('reference'));\nset_param(gcb,'filename',char('FTF_GFlame_Steinbacher.m"
+	"'));"
+	Display			"color('red')\nplot([0 0 1 1 0],[1 0 0 1 1])\n\nplot([-1, .3, .5, 2],...\n     [.5, .5, .8,.8])\n\nport_lab"
+	"el('output', 2, 'Ref.')"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  13
+	  Object {
+	    $ObjectID		    233
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "reference"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    234
+	    Type		    "edit"
+	    Name		    "filename"
+	    Prompt		    "filename"
+	    Value		    "FTF_GFlame_Steinbacher.m"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    235
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      3
+	      Cell		      "V-Flame"
+	      Cell		      "Conical Flame"
+	      Cell		      "M-Flame"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "Flammentyp"
+	    Prompt		    "Flame Type"
+	    Value		    "V-Flame"
+	    Tunable		    "off"
+	    Callback		    "% If Mflame is not selected, do not show parameters of MFlame\nmaskStr = get_param(gcb,'MaskValues"
+	    "');\n\nif strcmp(maskStr{3}(1),'M')\n    set_param(gcb,'MaskVisibilities',{'off';'off';'on';'on';'on';'on';'on';'"
+	    "on';'on';'on';'on';'on';'off'})\nelse\n    set_param(gcb,'MaskVisibilities',{'off';'off';'on';'on';'on';'on';'off"
+	    "';'off';'off';'on';'on';'on';'off'})\nend"
+	  }
+	  Object {
+	    $ObjectID		    236
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "convective"
+	      Cell		      "uniform"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "VModell"
+	    Prompt		    "Velocity Model"
+	    Value		    "convective"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    237
+	    Type		    "edit"
+	    Name		    "R"
+	    Prompt		    "Radius [m]"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    238
+	    Type		    "edit"
+	    Name		    "H"
+	    Prompt		    "Heigth [m]"
+	    Value		    "0.15"
+	  }
+	  Object {
+	    $ObjectID		    239
+	    Type		    "edit"
+	    Name		    "gamma"
+	    Prompt		    "MFlame Gamma [m]"
+	    Value		    "0"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    240
+	    Type		    "edit"
+	    Name		    "L1"
+	    Prompt		    "MFlame L1 [m]"
+	    Value		    "0"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    241
+	    Type		    "edit"
+	    Name		    "L2"
+	    Prompt		    "MFlame L2 [m]"
+	    Value		    "0"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    242
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "upwind"
+	      Cell		      "central"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "SchemeSpace"
+	    Prompt		    "Integration Scheme"
+	    Value		    "upwind"
+	  }
+	  Object {
+	    $ObjectID		    243
+	    Type		    "edit"
+	    Name		    "nY"
+	    Prompt		    "Number of Discretization Points"
+	    Value		    "50"
+	  }
+	  Object {
+	    $ObjectID		    244
+	    Type		    "checkbox"
+	    Name		    "active"
+	    Prompt		    "Active"
+	    Value		    "on"
+	  }
+	  Object {
+	    $ObjectID		    245
+	    Type		    "edit"
+	    Name		    "modelname"
+	    Prompt		    "modelname"
+	    Value		    "0"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  246
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    13
+	    Object {
+	      $ObjectID		      247
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      248
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "filename"
+	    }
+	    Object {
+	      $ObjectID		      249
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "Flammentyp"
+	    }
+	    Object {
+	      $ObjectID		      250
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "VModell"
+	    }
+	    Object {
+	      $ObjectID		      251
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "R"
+	    }
+	    Object {
+	      $ObjectID		      252
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "H"
+	    }
+	    Object {
+	      $ObjectID		      253
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "gamma"
+	    }
+	    Object {
+	      $ObjectID		      254
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "L1"
+	    }
+	    Object {
+	      $ObjectID		      255
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "L2"
+	    }
+	    Object {
+	      $ObjectID		      256
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "SchemeSpace"
+	    }
+	    Object {
+	      $ObjectID		      257
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "nY"
+	    }
+	    Object {
+	      $ObjectID		      258
+	      $ClassName	      "Simulink.dialog.parameter.CheckBox"
+	      Name		      "active"
+	    }
+	    Object {
+	      $ObjectID		      259
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "modelname"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"refG"
+	Location		[1939, 124, 3511, 723]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "246"
+	  Position		  [20, 133, 50, 147]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "247"
+	  Position		  [420, 133, 450, 147]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "virt1"
+	  SID			  "248"
+	  Position		  [420, 48, 450, 62]
+	  ZOrder		  -3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "refGeneric"
+      SID		      "233"
+      Ports		      [1, 2]
+      Position		      [30, 334, 75, 376]
+      ZOrder		      27
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<modelname>"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		260
+	$ClassName		"Simulink.Mask"
+	Initialization		"set_param(gcb,'element',char('reference'));"
+	Display			"color('red')\nplot([0 0 1 1 0],[1 0 0 1 1])\n\nplot([-1, .3, .5, 2],...\n     [.5, .5, .8,.8])\n\nport_lab"
+	"el('output', 2, 'Ref.')"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    261
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "reference"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    262
+	    Type		    "edit"
+	    Name		    "filename"
+	    Prompt		    "Filename"
+	    Value		    "/home/thomas/tools/taX/elements/model_Luis_30kW_9.5%25.mat"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    263
+	    Type		    "edit"
+	    Name		    "modelname"
+	    Prompt		    "Modelname"
+	    Value		    "model"
+	  }
+	  Object {
+	    $ObjectID		    264
+	    Type		    "checkbox"
+	    Name		    "active"
+	    Prompt		    "Active Flame"
+	    Value		    "on"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  265
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    4
+	    Object {
+	      $ObjectID		      266
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      267
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "filename"
+	    }
+	    Object {
+	      $ObjectID		      268
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "modelname"
+	    }
+	    Object {
+	      $ObjectID		      269
+	      $ClassName	      "Simulink.dialog.parameter.CheckBox"
+	      Name		      "active"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"refGeneric"
+	Location		[1992, 39, 2826, 399]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "234"
+	  Position		  [20, 133, 50, 147]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "235"
+	  Position		  [420, 133, 450, 147]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "virt1"
+	  SID			  "236"
+	  Position		  [420, 48, 450, 62]
+	  ZOrder		  -3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "refInterpolate"
+      SID		      "253"
+      Ports		      [1, 2]
+      Position		      [330, 334, 375, 376]
+      ZOrder		      39
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<modelname>"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		270
+	$ClassName		"Simulink.Mask"
+	Initialization		"set_param(gcb,'element',char('reference'));"
+	Display			"color('red')\nplot([0 0 1 1 0],[1 0 0 1 1])\n\nplot([-1, .3, .5, 2],...\n     [.5, .5, .8,.8])\n\nport_lab"
+	"el('output', 2, 'Ref.')"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    271
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "reference"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    272
+	    Type		    "edit"
+	    Name		    "filename"
+	    Prompt		    "Filename"
+	    Value		    "FTF_interpolate.m"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    273
+	    Type		    "edit"
+	    Name		    "modelname"
+	    Prompt		    "Modelname"
+	    Value		    "0"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    274
+	    Type		    "edit"
+	    Name		    "data"
+	    Prompt		    "Data files"
+	    Value		    "data.mat"
+	  }
+	  Object {
+	    $ObjectID		    275
+	    Type		    "edit"
+	    Name		    "pi"
+	    Prompt		    "parameters"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    276
+	    Type		    "checkbox"
+	    Name		    "active"
+	    Prompt		    "Active Flame"
+	    Value		    "on"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  277
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    6
+	    Object {
+	      $ObjectID		      278
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      279
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "filename"
+	    }
+	    Object {
+	      $ObjectID		      280
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "modelname"
+	    }
+	    Object {
+	      $ObjectID		      281
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "data"
+	    }
+	    Object {
+	      $ObjectID		      282
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "pi"
+	    }
+	    Object {
+	      $ObjectID		      283
+	      $ClassName	      "Simulink.dialog.parameter.CheckBox"
+	      Name		      "active"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"refInterpolate"
+	Location		[1992, 39, 2826, 399]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "254"
+	  Position		  [20, 133, 50, 147]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "255"
+	  Position		  [420, 133, 450, 147]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "virt1"
+	  SID			  "256"
+	  Position		  [420, 48, 450, 62]
+	  ZOrder		  -3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "reflEnd"
+      SID		      "50"
+      Ports		      [0, 1]
+      Position		      [340, 19, 385, 61]
+      ZOrder		      -22
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<r>"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		284
+	$ClassName		"Simulink.Mask"
+	Initialization		"if Mach<0\n   errordlg('Mach number cannot be negative','invalid Mach number');\nend\n\n\nif c<=0\n "
+	"   errordlg('speed of sound must be positive','invalid speed of sound');\nend\n\n\nif rho<=0\n     errordlg('density "
+	"must be positive','invalid density');\nend\n\n% Set identifier\nset_param(gcb,'element',char('reflEnd'));\n\nswitchBC"
+	"UpDownStream(gcb,loc);\n"
+	SelfModifiable		"on"
+	Display			"%patch([.2  1  1 .2],[.2 .2 .8 .8],[.7 1 1])\n%patch([.2 .3 .3 .2],[.2 .2 .8 .8],[.9 1 1])\n%patch([.3 .4 "
+	".4 .3],[.2 .2 .8 .8],[.8 1 1])\n%plot([.25 .15],[.3 .3])\n%plot([.25 .15],[.4 .4])\n%plot([.25 .15],[.5 .5])\n%plot(["
+	".25 .15],[.6 .6])\n%plot([.25 .15],[.7 .7])\n\npatch([0 1 1 0],[.2 .2 .8 .8],[.7 1 1])\n\nplot([0.0 .05],[.2 .2])\npl"
+	"ot([.15 .25],[.2 .2])\nplot([.35 .45],[.2 .2])\nplot([.55 .65],[.2 .2])\nplot([.75 .85],[.2 .2])\nplot([.95 1.0],[.2 "
+	".2])\n\nplot([0.0 .05],[.8 .8])\nplot([.15 .25],[.8 .8])\nplot([.35 .45],[.8 .8])\nplot([.55 .65],[.8 .8])\nplot([.75"
+	" .85],[.8 .8])\nplot([.95 1.0],[.8 .8])\n\ntext(.5,.5,'R','HorizontalAlignment','center')\n\n%plot([.45 .55],[.7 .7])"
+	"\n%plot([.45 .55],[.6 .6])\n%plot([.45 .55],[.5 .5])\n%plot([.45 .55],[.4 .4])\n%plot([.45 .55],[.3 .3])\nplot([1 1 0"
+	" 0 1],[1 0 0 1 1])"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    285
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "reflEnd"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    286
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  Object {
+	    $ObjectID		    287
+	    Type		    "edit"
+	    Name		    "r"
+	    Prompt		    "Reflection coefficient"
+	    Value		    "-0.8"
+	  }
+	  Object {
+	    $ObjectID		    288
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    289
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number [-]"
+	    Value		    "0.1"
+	  }
+	  Object {
+	    $ObjectID		    290
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [Kg/m³]"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    291
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    292
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Control"
+	      Dimension		      3
+	      Object {
+		$ObjectID		293
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		294
+		$ClassName		"Simulink.dialog.parameter.Popup"
+		Name			"loc"
+	      }
+	      Object {
+		$ObjectID		295
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"r"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    296
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		297
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		298
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		299
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		300
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"reflEnd"
+	Location		[2508, 52, 3062, 651]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"190"
+	SIDPrevWatermark	"178"
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port"
+	  SID			  "50:182"
+	  Position		  [430, 178, 460, 192]
+	  ZOrder		  1
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "refnTau"
+      SID		      "249"
+      Ports		      [1, 2]
+      Position		      [255, 334, 300, 376]
+      ZOrder		      38
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		301
+	$ClassName		"Simulink.Mask"
+	Initialization		"set_param(gcb,'element',char('reference'));\nset_param(gcb,'filename',char('FTF_ntau.m'));"
+	Display			"color('red')\nplot([0 0 1 1 0],[1 0 0 1 1])\n\nplot([-1, .3, .5, 2],...\n     [.5, .5, .8,.8])\n\nport_lab"
+	"el('output', 2, 'Ref.')"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    302
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "reference"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    303
+	    Type		    "edit"
+	    Name		    "n"
+	    Prompt		    "Interaction Index n [-]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    304
+	    Type		    "edit"
+	    Name		    "tau"
+	    Prompt		    "Time delay tau [s]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    305
+	    Type		    "checkbox"
+	    Name		    "active"
+	    Prompt		    "Active Flame"
+	    Value		    "on"
+	  }
+	  Object {
+	    $ObjectID		    306
+	    Type		    "edit"
+	    Name		    "filename"
+	    Prompt		    "filename"
+	    Value		    "FTF_ntau.m"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    307
+	    Type		    "edit"
+	    Name		    "modelname"
+	    Prompt		    "modelname"
+	    Value		    "0"
+	    Internal		    "on"
+	    Visible		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  308
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    6
+	    Object {
+	      $ObjectID		      309
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      310
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "n"
+	    }
+	    Object {
+	      $ObjectID		      311
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "tau"
+	    }
+	    Object {
+	      $ObjectID		      312
+	      $ClassName	      "Simulink.dialog.parameter.CheckBox"
+	      Name		      "active"
+	    }
+	    Object {
+	      $ObjectID		      313
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "filename"
+	    }
+	    Object {
+	      $ObjectID		      314
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "modelname"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"refnTau"
+	Location		[2142, 75, 3234, 612]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "250"
+	  Position		  [20, 133, 50, 147]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "251"
+	  Position		  [420, 133, 450, 147]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "virt1"
+	  SID			  "252"
+	  Position		  [420, 48, 450, 62]
+	  ZOrder		  -3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "scatter"
+      SID		      "51"
+      Ports		      [1, 1]
+      Position		      [255, 428, 300, 472]
+      ZOrder		      -23
+      ForegroundColor	      "blue"
+      BackgroundColor	      "[1.000000, 0.806667, 0.420000]"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		315
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('scatteringDummy'));"
+	SelfModifiable		"on"
+	Display			"color('red')\nplot([0 0 1 1 0],[1 0 0 1 1])\n\nswitch loc\n    case 'Upstream'\n        plot([.35 .45 .55 "
+	".55 .45 .25 .15 .15 .45 .55 .55], ...\n            [.6 .6 .7 .8 .9 .9 .7 .5 .1 .1 .2])\n        plot([.35 .45 .45 .35"
+	" .25 .2],[.6 .7 .8 .85 .8 .6])\n        plot([.45 .35 .25 .25 .35 .40 .45 .45 .40 .40 .45 .45], ...\n            [.7 "
+	".7 .6 .5 .4 .3 .3 .35 .4 .45 .5 .55])\n\n        plot([.9 .85 .9],    [.4     .5   .6 ])\n        plot([.8 .75 .75 .8"
+	"], [.35 .45 .55 .65])\n        plot([.7 .65 .65 .7], [.3  .4  .6  .7 ])\n    case 'Downstream'\n        plot([.65 .55"
+	" .45 .45 .55 .75 .85 .85 .55 .45 .45], ...\n            [.6 .6 .7 .8 .9 .9 .7 .5 .1 .1 .2])\n        plot([.65 .55 .5"
+	"5 .65 .75 .8],[.6 .7 .8 .85 .8 .6])\n        plot([.55 .65 .75 .75 .65 .6 .55 .55 .6 .6 .55 .55], ...\n            [."
+	"7 .7 .6 .5 .4 .3 .3 .35 .4 .45 .5 .55])\n        \n        plot([.1 .15 .1],    [.4     .5   .6 ])\n        plot([.2 "
+	".25 .25 .2], [.35 .45 .55 .65])\n        plot([.3 .35 .35 .3], [.3  .4  .6  .7 ])\nend"
+	IconFrame		"off"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    316
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "scatteringDummy"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    317
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      2
+	      Cell		      "Downstream"
+	      Cell		      "Upstream"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "loc"
+	    Prompt		    "Location"
+	    Value		    "Upstream"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  318
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    2
+	    Object {
+	      $ObjectID		      319
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      320
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "loc"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"scatter"
+	Location		[2434, 223, 2840, 592]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"246"
+	SIDPrevWatermark	"185"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Port"
+	  SID			  "51:185"
+	  Position		  [50, 83, 80, 97]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Port1"
+	  SID			  "51:186"
+	  Position		  [275, 83, 305, 97]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "simpleDuct"
+      SID		      "52"
+      Ports		      [1, 1]
+      Position		      [115, 218, 175, 262]
+      ZOrder		      -24
+      ForegroundColor	      "blue"
+      AttributesFormatString  "%<l> m"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		321
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('simpleDuct'));"
+	Display			"patch([0 1 1 0],[.2 .2 .8 .8],[.7 1 1])\nplot([0 1],[.2 .2])\nplot([0 1],[.8 .8])\n\nplot([1 1 0 0 1],[1 0"
+	" 0 1 1])"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    322
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "simpleDuct"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    323
+	    Type		    "edit"
+	    Name		    "l"
+	    Prompt		    "Length [m]"
+	    Value		    "0.25"
+	  }
+	  Object {
+	    $ObjectID		    324
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      5
+	      Cell		      "no damping"
+	      Cell		      "Kirchhoff (wide tubes)"
+	      Cell		      "Peters"
+	      Cell		      "Dokumanci (best but slow)"
+	      Cell		      "Howe (turbulent)"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "damping_model_popup"
+	    Prompt		    "Damping model"
+	    Value		    "no damping"
+	    Callback		    "% Get the mask parameter values. This is a cell\n%   array of strings.\nmaskStr = get_param(gcb,'M"
+	    "askValues');\n\n% The pop-up menu is the first mask parameter.\n%   Check pop-up choice by comparing first letter"
+	    ", i.e. n or K...\nif strcmp(maskStr{3}(1),'n'),\n    % Turn off visibility of gamma/nu/Pr\n    set_param(gcb,'Mas"
+	    "kVisibilities',{'off';'on';'on';'off';'off';'off';'off'}),\n	maskStr{7} = '1';\n    set_param(gcb,'MaskValues',ma"
+	    "skStr);\nelseif strcmp(maskStr{3}(1),'K'),\n	% turn on visibility of gamma/nu/Pr\n    set_param(gcb,'MaskVisibili"
+	    "ties',{'off';'on';'on';'on';'on';'on';'off'}),\n	maskStr{7} = '2';\n    set_param(gcb,'MaskValues',maskStr);\nels"
+	    "eif strcmp(maskStr{3}(1),'P'),\n	% turn on visibility of gamma/nu/Pr\n    set_param(gcb,'MaskVisibilities',{'off'"
+	    ";'on';'on';'on';'on';'on';'off'}),\n	maskStr{7} = '3';\n    set_param(gcb,'MaskValues',maskStr);\nelseif strcmp(m"
+	    "askStr{3}(1),'D'),\n	% turn on visibility of gamma/nu/Pr\n    set_param(gcb,'MaskVisibilities',{'off';'on';'on';'"
+	    "on';'on';'on';'off'}),\n	maskStr{7} = '4';\n    set_param(gcb,'MaskValues',maskStr);\nelse\n	% turn on visibility"
+	    " of gamma/nu\n    set_param(gcb,'MaskVisibilities',{'off';'on';'on';'on';'on';'off';'off'}),\n	maskStr{7} = '5';\n"
+	    "    set_param(gcb,'MaskValues',maskStr);\nend"
+	  }
+	  Object {
+	    $ObjectID		    325
+	    Type		    "edit"
+	    Name		    "gm"
+	    Prompt		    "Ratio of specific heats [-]"
+	    Value		    "1.4"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    326
+	    Type		    "edit"
+	    Name		    "nu"
+	    Prompt		    "Kinematic Viscosity [m^2/s]"
+	    Value		    "1.568e-5"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    327
+	    Type		    "edit"
+	    Name		    "Pr"
+	    Prompt		    "Prandtl number [-]"
+	    Value		    "5"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    328
+	    Type		    "edit"
+	    Name		    "damping_model_id"
+	    Prompt		    "damping"
+	    Value		    "1"
+	    Visible		    "off"
+	  }
+	  PropName		  "Parameters"
+	}
+	Object {
+	  $PropName		  "DialogControls"
+	  $ObjectID		  329
+	  $ClassName		  "Simulink.dialog.Group"
+	  Prompt		  "Simulink:studio:ToolBarParametersMenu"
+	  Array {
+	    Type		    "Simulink.dialog.parameter.Control"
+	    Dimension		    7
+	    Object {
+	      $ObjectID		      330
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Object {
+	      $ObjectID		      331
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "l"
+	    }
+	    Object {
+	      $ObjectID		      332
+	      $ClassName	      "Simulink.dialog.parameter.Popup"
+	      Name		      "damping_model_popup"
+	    }
+	    Object {
+	      $ObjectID		      333
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "gm"
+	    }
+	    Object {
+	      $ObjectID		      334
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "nu"
+	    }
+	    Object {
+	      $ObjectID		      335
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "Pr"
+	    }
+	    Object {
+	      $ObjectID		      336
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "damping_model_id"
+	    }
+	    PropName		    "DialogControls"
+	  }
+	  Name			  "ParameterGroupVar"
+	}
+      }
+      System {
+	Name			"simpleDuct"
+	Location		[963, 52, 1629, 904]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "53"
+	  Position		  [165, 108, 195, 122]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "54"
+	  Position		  [420, 133, 450, 147]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "tempJump"
+      SID		      "55"
+      Ports		      [1, 1]
+      Position		      [110, 119, 155, 161]
+      ZOrder		      -25
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		337
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('tempJump'));"
+	Display			"%patch([-.1 1.1 1.1 -.1],[-.1 -.1 1.1 1.1],[.85 1 1])\ntext(.65,.5,'T')\n\npatch([.3 .3 .2 .2 .3 .4 .5 .5 "
+	".4 .4 .3],...\n      [.6 .4 .3 .2 .1 .1 .2 .3 .4 .6 .6], [1 0 0])\npatch([.3 .3 .4 .4 .3],...\n      [.9 .6 .6 .9 .9]"
+	", [1 1 1])\nplot([.3 .3 .2 .2 .3 .4 .5 .5 .4 .4 .3],...\n     [.9 .4 .3 .2 .1 .1 .2 .3 .4 .9 .9])\nplot([.4 .5],[.5 ."
+	"5])\nplot([.4 .5],[.6 .6])\nplot([.4 .5],[.7 .7])"
+	IconFrame		"off"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    338
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "tempJump"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    339
+	    Type		    "edit"
+	    Name		    "Mach"
+	    Prompt		    "Mach number (dimensionless)"
+	    Value		    "694.38"
+	  }
+	  Object {
+	    $ObjectID		    340
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density (Kg/m³)"
+	    Value		    "0.29"
+	  }
+	  Object {
+	    $ObjectID		    341
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound (m/s)"
+	    Value		    "287"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    342
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      343
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "element"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    344
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      3
+	      Object {
+		$ObjectID		345
+		Name			"Mach"
+	      }
+	      Object {
+		$ObjectID		346
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		347
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"tempJump"
+	Location		[64, 98, 642, 539]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "56"
+	  Position		  [60, 98, 90, 112]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "57"
+	  Position		  [415, 113, 445, 127]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Annotation {
+	  SID			  "206"
+	  Position		  [347, 398, 349, 415]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  ZOrder		  -1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "triJunction_12"
+      SID		      "58"
+      Ports		      [1, 2]
+      Position		      [200, 114, 245, 161]
+      ZOrder		      -26
+      ForegroundColor	      "blue"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		348
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('triJunction_12'));"
+	Display			"%plot([0. .2],[.8 1.])\n%plot([0. .4],[.6 1.])\n%plot([0. .6],[.4 1.])\n%plot([0. .8],[.2 1.])\n%plot([0. "
+	"1.],[.0 1.])\n%plot([.2 1.],[.0 .8])\n%plot([.4 1.],[.0 .6])\n%plot([.6 1.],[.0 .4])\n%plot([.8 1.],[.0 .2])\n\npatch"
+	"([1 .4 0 0 .4 1 1 .6 1],[1 .8 .8 .2 .2 0 .4 .5 .6],[.7 1 1])\nplot([1 .4 0 0 .4 1],...\n     [1 .8 .8 .2 .2 0])\nplot"
+	"([1 1 .6 1 1],[0 .4 .5 .6 1])\nport_label('output',1,'1')\nport_label('output',2,'2')\nplot([1 1 0 0 1],[1 0 0 1 1])\n"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    349
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "triJunction_12"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    350
+	    Type		    "edit"
+	    Name		    "zeta2"
+	    Prompt		    "Loss coefficient In1_Out2 (optional)"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    351
+	    Type		    "edit"
+	    Name		    "zeta1"
+	    Prompt		    "Loss coefficient In1_Out1 (optional)"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    352
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²] vector"
+	    Value		    "[0.01  0.02]"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Control"
+	  Dimension		  3
+	  Object {
+	    $ObjectID		    353
+	    $ClassName		    "Simulink.dialog.parameter.Edit"
+	    Name		    "element"
+	  }
+	  Object {
+	    $ObjectID		    354
+	    $ClassName		    "Simulink.dialog.Group"
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      2
+	      Object {
+		$ObjectID		355
+		Name			"zeta2"
+	      }
+	      Object {
+		$ObjectID		356
+		Name			"zeta1"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    357
+	    $ClassName		    "Simulink.dialog.Group"
+	    Prompt		    "Output properties"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      358
+	      $ClassName	      "Simulink.dialog.parameter.Edit"
+	      Name		      "A"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"triJunction_12"
+	Location		[2177, 56, 3104, 887]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "59"
+	  Position		  [205, 53, 235, 67]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "65"
+	  Position		  [505, 53, 535, 67]
+	  ZOrder		  -7
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out2"
+	  SID			  "66"
+	  Position		  [505, 113, 535, 127]
+	  ZOrder		  -8
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "triJunction_21"
+      SID		      "67"
+      Ports		      [2, 1]
+      Position		      [300, 114, 345, 161]
+      ZOrder		      -27
+      ForegroundColor	      "blue"
+      LibraryVersion	      "*1.10"
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		359
+	$ClassName		"Simulink.Mask"
+	Initialization		"% Set identifier\nset_param(gcb,'element',char('triJunction_21'));"
+	Display			"%plot([0. .2],[.8 1.])\n%plot([0. .4],[.6 1.])\n%plot([0. .6],[.4 1.])\n%plot([0. .8],[.2 1.])\n%plot([0. "
+	"1.],[.0 1.])\n%plot([.2 1.],[.0 .8])\n%plot([.4 1.],[.0 .6])\n%plot([.6 1.],[.0 .4])\n%plot([.8 1.],[.0 .2])\n\npatch"
+	"([0 .6 1   1 .6 0  0 .4  0],...\n      [1 .8 .8 .2 .2 0 .4 .5 .6],[.7 1 1])\nplot([0 .6 1 1 .6 0],[1 .8 .8 .2 .2 0])\n"
+	"plot([0 0 .4 0 0],[0 .4 .5 .6 1])\nport_label('input',1,'1')\nport_label('input',2,'2')\nplot([1 1 0 0 1],[1 0 0 1 1]"
+	")"
+	IconFrame		"off"
+	IconRotate		"port"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  6
+	  Object {
+	    $ObjectID		    360
+	    Type		    "edit"
+	    Name		    "element"
+	    Prompt		    "element"
+	    Value		    "triJunction_21"
+	    Evaluate		    "off"
+	    Tunable		    "off"
+	    Visible		    "off"
+	  }
+	  Object {
+	    $ObjectID		    361
+	    Type		    "edit"
+	    Name		    "zetai"
+	    Prompt		    "Loss coefficient In1_Out1 (optional)"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    362
+	    Type		    "edit"
+	    Name		    "zetaj"
+	    Prompt		    "Loss coefficient In2_Out1 (optional)"
+	    Value		    "0"
+	  }
+	  Object {
+	    $ObjectID		    363
+	    Type		    "edit"
+	    Name		    "A"
+	    Prompt		    "Area [m²]"
+	    Value		    "1"
+	  }
+	  Object {
+	    $ObjectID		    364
+	    Type		    "edit"
+	    Name		    "rho"
+	    Prompt		    "Density [Kg/m³]"
+	    Value		    "1.2"
+	  }
+	  Object {
+	    $ObjectID		    365
+	    Type		    "edit"
+	    Name		    "c"
+	    Prompt		    "Speed of sound [m/s]"
+	    Value		    "100"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    366
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      3
+	      Object {
+		$ObjectID		367
+		Name			"element"
+	      }
+	      Object {
+		$ObjectID		368
+		Name			"zetai"
+	      }
+	      Object {
+		$ObjectID		369
+		Name			"zetaj"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    370
+	    Prompt		    "Output properties"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      3
+	      Object {
+		$ObjectID		371
+		Name			"A"
+	      }
+	      Object {
+		$ObjectID		372
+		Name			"rho"
+	      }
+	      Object {
+		$ObjectID		373
+		Name			"c"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "Container3"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"triJunction_21"
+	Location		[294, 76, 1223, 905]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "68"
+	  Position		  [55, 33, 85, 47]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In2"
+	  SID			  "69"
+	  Position		  [50, 108, 80, 122]
+	  ZOrder		  -2
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "73"
+	  Position		  [580, 63, 610, 77]
+	  ZOrder		  -3
+	  IconDisplay		  "Port number"
+	}
+      }
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out1"
+      SID		      "74"
+      Position		      [535, 58, 565, 72]
+      ZOrder		      -29
+      IconDisplay	      "Port number"
+    }
+    Line {
+      ZOrder		      3
+      SrcBlock		      "refGeneric"
+      SrcPort		      2
+      DstBlock		      "Flame"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      4
+      SrcBlock		      "refGeneric"
+      SrcPort		      1
+      DstBlock		      "Flame"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      5
+      SrcBlock		      "Flame"
+      SrcPort		      1
+      DstBlock		      "refG"
+      DstPort		      1
+    }
+  }
+}
