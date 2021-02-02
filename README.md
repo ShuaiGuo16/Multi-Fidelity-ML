@@ -11,7 +11,7 @@
 - We successfully tested the multi-fidelity strategy on the data acquired from a test rig.
 - Our results indicate that given the same computational budget, the proposed strategy yields globally more accurate, robust flame model identification.
 
-This work was firstly presented in [CM4P ECCOMAS 2019](https://cm4p.org/past-editions-2/) conference, and was later accepted in the journal:
+This work was initially presented in [CM4P ECCOMAS 2019](https://cm4p.org/past-editions-2/) conference, and was later accepted in the journal:
 
 Guo S., Silva C. F., Polifke W., Robust Identification of Flame Frequency Response via
 Multi-Fidelity Gaussian Process Approach. *Journal of Sound and Vibration*, 2021.
@@ -39,7 +39,7 @@ robust flame model identification even in the presence of strong noise.
 
 ### 5. Folder structure
 
-**1. Presentation**: the slides presented in [ASME Turbo Expo 2019](https://event.asme.org/Turbo-Expo-2019) conference.
+**1. Presentation**: the slides presented in [CM4P ECCOMAS 2019](https://cm4p.org/past-editions-2/) conference.
 
 **2. MatlabScripts**: MATLAB source code and data to reproduce the results. The code and data are organized in individual folders corresponding to different sections in the paper. 
 
