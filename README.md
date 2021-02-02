@@ -34,7 +34,7 @@ robust flame model identification even in the presence of strong noise.
 - We extended our strategy to aggregate data from both simulations and experiments, demonstrating its flexibility in practical usages.
 
 <p align="center">
-  <img src="./Images/Results.PNG" width=400 />
+  <img src="./Images/Results.PNG" width=500 />
 </p>
 
 ### 5. Folder structure
